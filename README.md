@@ -1,6 +1,5 @@
-# My Docs Template
-GitHub Pagesのデザインとかに困ったときに使うやつ。  
-GitHub Actionsでgh-pagesブランチに自動デプロイする。
+# learn-facemesh
+Googleが出している[Facemesh](https://github.com/tensorflow/tfjs-models/tree/master/facemesh)を試す。  
+[この記事](https://knowledge.sakura.ad.jp/24667/)で出てくる[CodePen](https://codepen.io/terry_a/pen/ExPWYpg)の写経。
 
-## 使い方
-『Use this template』ボタンで複製してください。
+最終的に、記事を参考にVRMを読み込むところまでやりたい。
