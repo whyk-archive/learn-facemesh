@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/earlyaccess/notosansjp.css");
-
 html,
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 62.5%;
-  font-family: 'Noto Sans JP';
 }
 
 p,
+a,
 li,
 span,
-code {
+code,
+button {
   font-size: $fontSize;
 }

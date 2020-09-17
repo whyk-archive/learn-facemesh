@@ -1,57 +1,69 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/scss/main.scss">
-  <title>Learn Facemesh</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Learn Facemesh</title>
+    <link rel="stylesheet" href="./assets/scss/main.scss" />
+  </head>
 
-<body>
-  <header role="banner" class="l-header">
-    <div class="l-header__wrapper">
-      <h1 class="l-header__head">
-        <span class="l-header__head-text">Google Facemeshを試す</span>
-        <a href="https://github.com/windchime-yk/learn-facemesh" class="l-header__head-link"><span class="fab fa-github l-header__head-icon"></span></a>
-      </h1>
-      <p class="l-header__text">Facemeshを使って顔のメッシュデータを取得し、最終的にVRoidに反映させる</p>
-    </div>
-  </header>
+  <body>
+    <header role="banner" class="l-header">
+      <div class="l-header__wrapper">
+        <h1 class="l-header__head">
+          <span class="l-header__head-text">Google Facemeshを試す</span>
+          <a href="https://github.com/windchime-yk/learn-facemesh" target="_blank" rel="noopener noreferrer" class="l-header__head-link">
+            <span class="fab fa-github l-header__head-icon"></span>
+          </a>
+        </h1>
+        <p class="l-header__text">
+          Facemeshを使って顔のメッシュデータを取得し、最終的にVRoidに反映させる
+        </p>
+      </div>
+    </header>
 
-  <div class="l-container">
-    <nav role="navigation" class="l-nav">
-      <h2 class="l-nav__title">Index</h2>
-      <ul class="l-nav__list"></ul>
-    </nav>
+    <div class="l-container">
+      <div class="l-nav-container">
+        <nav role="navigation" class="l-nav">
+          <h2 class="l-nav__title">Index</h2>
+          <ul class="l-nav__list"></ul>
+        </nav>
+      </div>
 
-    <main role="main" class="l-main">
-      <section id="section01" class="p-contents">
-        <h2 class="p-contents__head">Facemeshについて</h2>
-        <p class="p-contents__text">Googleが開発した機械学習ソフトウェアライブラリ『TensorFlow』のモデルの一つ。顔の動きをメッシュデータで取得できる。</p>
-      </section>
+      <main role="main" class="l-main">
+        <section id="About" class="p-contents">
+          <h2 class="p-contents__head">Facemeshについて</h2>
+          <p class="p-contents__text">Googleが開発した機械学習ソフトウェアライブラリ『TensorFlow』のモデルの一つ。顔の動きをメッシュデータで取得できる。</p>
+        </section>
 
-      <section id="section02" class="p-contents">
-        <h2 class="p-contents__head">参考資料</h2>
-        <ul>
-          <li><a href="https://knowledge.sakura.ad.jp/24667/" target="_blank" rel="noopener noreferrer">テレカンVTuberをやってみよう！ facemeshを使ったアバター表示</a></li>
-          <li><a href="https://github.com/tensorflow/tfjs-models/tree/master/facemesh" target="_blank" rel="noopener noreferrer">MediaPipe Facemesh - GitHub</a></li>
-          <li><a href="https://note.com/npaka/n/nbb40fe96555b" target="_blank" rel="noopener noreferrer">MediaPipeとTensorFlow.jsによるブラウザでの顔と手の追跡</a></li>
+        <section id="Reference" class="p-contents">
+          <h2 class="p-contents__head">参考資料</h2>
+          <ul>
+            <li><a class="p-contents__link" href="https://knowledge.sakura.ad.jp/24667/" target="_blank" rel="noopener noreferrer">テレカンVTuberをやってみよう！ facemeshを使ったアバター表示</a></li>
+            <li><a class="p-contents__link" href="https://github.com/tensorflow/tfjs-models/tree/master/facemesh" target="_blank" rel="noopener noreferrer">MediaPipe Facemesh - GitHub</a></li>
+            <li><a class="p-contents__link" href="https://note.com/npaka/n/nbb40fe96555b" target="_blank" rel="noopener noreferrer">MediaPipeとTensorFlow.jsによるブラウザでの顔と手の追跡</a></li>
+          </ul>
+        </section>
+      </main>
+
+      <footer role="contentinfo" class="l-footer">
+        <ul class="l-footer__list">
+          <li class="l-footer__item">
+            <a href="https://github.com/windchime-yk" target="_blank" rel="noopener noreferrer" class="l-footer__item-link">
+              <span class="fab fa-github l-footer__item-icon"></span>
+            </a>
+          </li>
+          <li class="l-footer__item">
+            <a href="https://twitter.com/windchime_yk" target="_blank" rel="noopener noreferrer" class="l-footer__item-link">
+              <span class="fab fa-twitter l-footer__item-icon"></span>
+            </a>
+          </li>
         </ul>
-      </section>
-    </main>
+        <small class="l-footer__copy">&copy; 2020 WhyK</small>
+      </footer>
+    </div>
 
-    <footer role="contentinfo" class="l-footer">
-      <ul class="l-footer__list">
-        <li class="l-footer__item"><a href="https://github.com/windchime-yk" class="l-footer__item-link"><span class="fab fa-github l-footer__item-icon"></span></a></li>
-        <li class="l-footer__item"><a href="https://twitter.com/windchime_yk" class="l-footer__item-link"><span class="fab fa-twitter l-footer__item-icon"></span></a></li>
-      </ul>
-      <small class="l-footer__copy">&copy; 2020 WhyK</small>
-    </footer>
-  </div>
-
-  <script src="./assets/ts/index.ts"></script>
-</body>
+    <script src="./assets/ts/index.ts"></script>
+  </body>
 </html>
